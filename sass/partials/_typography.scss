@@ -7,6 +7,15 @@ $sans-serif: 'Open Sans', sans-serif;
 $serif: Merriweather, Georgia, 'Times New Roman', serif;
 $accent-font: 'Nunito', sans-serif;
 
+@font-face {
+  font-family: 'TheSeasons';
+  src: url('FONTSPRINGDEMO-TheSeasonsRegular.woff2') format('woff2'),
+      url('FONTSPRINGDEMO-TheSeasonsRegular.woff') format('woff'),
+      url('FONTSPRINGDEMO-TheSeasonsRegular.ttf') format('truetype');
+  font-display: swap;
+}
+
+
 // Weights
 
 $light: 300;
@@ -46,6 +55,7 @@ p {
 }
 
 h1 {
+  font-family: 'TheSeasons', sans-serif;
   font-size: $font-size-h1;
 }
 
