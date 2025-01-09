@@ -9,11 +9,15 @@ $accent-font: 'Nunito', sans-serif;
 
 @font-face {
   font-family: 'TheSeasons';
-  src: url('FONTSPRINGDEMO-TheSeasonsRegular.woff2') format('woff2'),
-      url('FONTSPRINGDEMO-TheSeasonsRegular.woff') format('woff'),
-      url('FONTSPRINGDEMO-TheSeasonsRegular.ttf') format('truetype');
+  src: url('FONTSPRINGDEMO-TheSeasonsLightRegular.woff2') format('woff2'),
+      url('FONTSPRINGDEMO-TheSeasonsLightRegular.woff') format('woff'),
+      url('FONTSPRINGDEMO-TheSeasonsLightRegular.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
   font-display: swap;
 }
+
+
 
 
 // Weights
@@ -25,7 +29,7 @@ $bold: 700;
 
 // Sizes
 
-$font-size-h1: 80px;
+$font-size-h1: 70px;
 $font-size-h2: 40px;
 $font-size-h3: 24px;
 $font-size-h4: 18px;
@@ -55,7 +59,7 @@ p {
 }
 
 h1 {
-  font-family: 'TheSeasons', sans-serif;
+  font-family: 'TheSeasons';
   font-size: $font-size-h1;
 }
 
