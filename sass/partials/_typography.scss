@@ -8,12 +8,10 @@ $serif: Merriweather, Georgia, 'Times New Roman', serif;
 $accent-font: 'Nunito', sans-serif;
 
 @font-face {
-  font-family: 'TheSeasons';
+  font-family: 'TheSeasonsLight';
   src: url('FONTSPRINGDEMO-TheSeasonsLightRegular.woff2') format('woff2'),
       url('FONTSPRINGDEMO-TheSeasonsLightRegular.woff') format('woff'),
       url('FONTSPRINGDEMO-TheSeasonsLightRegular.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
   font-display: swap;
 }
 
@@ -59,8 +57,9 @@ p {
 }
 
 h1 {
-  font-family: 'TheSeasons';
+  font-family: 'TheSeasonsLight';
   font-size: $font-size-h1;
+  font-weight: $light;
 }
 
 h2 {
