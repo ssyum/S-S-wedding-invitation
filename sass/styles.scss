@@ -759,6 +759,11 @@ Embed video
   display:table
 }
 
+#instagram-media {
+  transform: rotate(90deg); /* Rotate the embed by 90 degrees */
+  transform-origin: center; /* Optional: This keeps the rotation centered */
+}
+
 /* ==========================================================================
 Google map
 ========================================================================== */
