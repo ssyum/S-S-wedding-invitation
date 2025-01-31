@@ -51,6 +51,9 @@
         }
     </script>
 
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/jquery.fancybox.css">
@@ -202,67 +205,34 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-2">
-                    <a class="fancybox" rel="group" href="img\hero.jpg">
-                        <div class="img-wrap">
-                            <div class="overlay">
-                                <i class="fa fa-search"></i>
-                            </div>
-                            <img src="img\hero.jpg" alt="" />
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-2">
-                    <a class="fancybox" rel="group" href="img\hero.jpg">
-                        <div class="img-wrap">
-                            <div class="overlay">
-                                <i class="fa fa-search"></i>
-                            </div>
-                            <img src="img\hero.jpg" alt="" />
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-2">
-                    <a class="fancybox" rel="group" href="img\hero.jpg">
-                        <div class="img-wrap">
-                            <div class="overlay">
-                                <i class="fa fa-search"></i>
-                            </div>
-                            <img src="img\hero.jpg" alt="" />
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-2">
-                    <a class="fancybox" rel="group" href="img\hero.jpg">
-                        <div class="img-wrap">
-                            <div class="overlay">
-                                <i class="fa fa-search"></i>
-                            </div>
-                            <img src="img\hero.jpg" alt="" />
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-2">
-                    <a class="fancybox" rel="group" href="img\hero.jpg">
-                        <div class="img-wrap">
-                            <div class="overlay">
-                                <i class="fa fa-search"></i>
-                            </div>
-                            <img src="img\hero.jpg" alt="" />
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-2">
-                    <a class="fancybox" rel="group" href="img\hero.jpg">
-                        <div class="img-wrap">
-                            <div class="overlay">
-                                <i class="fa fa-search"></i>
-                            </div>
-                            <img src="img\hero.jpg" alt="" />
-                        </div>
-                    </a>
+                <div class="container mx-auto p-4">
+                    <div class="row row-cols-1 row-cols-md-3 g-4 text-center">
+                        <a data-fancybox="gallery" href="img/hero.jpg">
+                            <img class="rounded" src="img/hero.jpg" />
+                        </a>
+                        <a data-fancybox="gallery" href="img/hero.jpg">
+                            <img class="rounded" src="img/hero.jpg" />
+                        </a>
+                        <a data-fancybox="gallery" href="img/hero.jpg">
+                            <img class="rounded" src="img/hero.jpg" />
+                        </a>
+                        <a data-fancybox="gallery" href="img/hero.jpg">
+                            <img class="rounded" src="img/hero.jpg" />
+                        </a>
+                        <a data-fancybox="gallery" href="img/hero.jpg">
+                            <img class="rounded" src="img/hero.jpg" />
+                        </a>
+                        <a data-fancybox="gallery" href="img/hero.jpg">
+                            <img class="rounded" src="img/hero.jpg" />
+                        </a>
+                    </div>
                 </div>
             </div>
+            <script>
+                Fancybox.bind('[data-fancybox="gallery"]', {
+                    //
+                });    
+            </script>
         </div>
         <div class="container">
             <div class="row hidden-lg hidden-md hidden-xs">
@@ -277,8 +247,8 @@
             <source src="video/eng_vid_rotate.ogv" type="video/ogg">
             <source src="video/eng_vid_rotate.webm" type="video/webm">
             Your browser does not support the video tag.
-          </video>
-          
+        </video>
+
     </section>
 
 
